@@ -1,7 +1,7 @@
 <h1 align="center"> Social Linking </h1>
 
 <p align="center">
-Primeiro site feito por Pedro Matias. ~~Isso aqui vai ser privado~~ (bom, era antes:sweat_smile:) e é pra sempre lembrar que eu posso também se eu tiver coragem de tentar. <br/>
+Primeiro site feito por Pedro Matias. Isso era privado, mas agora é pra sempre lembrar que eu posso também se eu tiver coragem de tentar, não importa o quão simples seja.</p> <br/>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](pmatiazzz.github.io/social-linking)
+- [Acesse o projeto finalizado, online](https://pmatiazzz.github.io/social-linking)
 
 ## 🔖 Layout
 

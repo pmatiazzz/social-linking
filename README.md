@@ -7,6 +7,7 @@ Primeiro site feito por Pedro Matias. Isso era privado, mas agora é pra sempre 
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#⚠️-status">Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -25,13 +26,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+O Social Linking é um agregador de links(assim como Linktree) para usar como cartão de visitas online, contedo minhas informações nele.
 
-- [Acesse o projeto finalizado, online](https://pmatiazzz.github.io/social-linking)
+- [Acesse o projeto finalizado online](https://pmatiazzz.github.io/social-linking)
 
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+## ⚠️ Status
+
+Esse projeto está **INCOMPLETO**, com o tempo que eu estudo irei atualizando ele. O esqueleto dele e o projeto em sí foi tirado do curso Discover da [Rocketseat](https://www.rocketseat.com.br).
 
 ## :memo: Licença
 

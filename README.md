@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](pmatiazzz.github.io/social-linking)
+- [Acesse o projeto finalizado, online](https://pmatiazzz.github.io/social-linking)
 
 ## 🔖 Layout
 

@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Social Linking é um agregador de links(assim como Linktree) para usar como cartão de visitas online, contedo minhas informações nele.
 
-- [Acesse o projeto finalizado online](https://pmatiazzz.github.io/social-linking)
+- [Acesse o projeto "finalizado" online](https://pmatiazzz.github.io/social-linking)
 
 ## 🔖 Layout
 

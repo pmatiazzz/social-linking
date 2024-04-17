@@ -1,188 +1,186 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    zoom: 1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  zoom: 1;
 }
 
 :root {
-    --text-color: white;
-    --bg-url: url(./assets/ffflurry.svg);
-    --stroke-color: rgba(255, 255, 255, 0.5);
-    --surface-color: rgba(255, 255, 255, 0.05);
-    --surface-color-hover: rgba(255, 255, 255, 0.02);
-    --highlight-color: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./assets/moon-stars.svg);
+  --text-color: white;
+  --bg-url: url(./assets/ffflurry.svg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(255, 255, 255, 0.02);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
-    --text-color: black;
-    --bg-url: url(./assets/ffflurry-light.svg);
-    --stroke-color: rgba(0, 0, 0, 0.5);
-    --surface-color: rgba(0, 0, 0, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.02);
-    --highlight-color: rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(./assets/sun.svg);
+  --text-color: black;
+  --bg-url: url(./assets/ffflurry-light.svg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
-    background: var(--bg-url) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 
 body * {
-    font-family: "Inter", sans-serif;
-    color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
 }
 
 footer {
-    text-align: center;
-    padding: 24px 0;
+  text-align: center;
+  padding: 24px 0;
 }
 
 #container {
-    width: 100%;
-    max-width: 500px;
-    margin: 56px auto 0px;
-    padding: 0 24px;
+  width: 100vw;
+  height: 100vh;
+  max-width: 500px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 #profile {
-    text-align: center;
-    padding: 24px;
+  text-align: center;
+  padding: 24px;
 }
 
 #profile img {
-    width: 112px;
-    border-radius: 50%;
-    border: 2px rgb(41, 41, 41) solid;
+  width: 112px;
+  border-radius: 50%;
+  border: 2px rgb(41, 41, 41) solid;
 }
 
 #profile p {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-top: 8px;
 }
-
 
 /* Switch */
 
 #switch {
-    position: relative;
-    width: 64px;
-    margin: 0 auto;
+  position: relative;
+  width: 64px;
+  margin: 0 auto;
 }
 
 #switch button {
-    width: 32px;
-    height: 32px;
-    background: white var(--switch-bg-url) no-repeat center;
-    border: 0;
-    border-radius: 50%;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    z-index: 1;
-    transform: translateY(-50%);
-    animation: slide-back 0.2s;
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-bg-url) no-repeat center center;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  animation: slide-back 0.2s;
 }
 
 #switch button:hover {
-    outline: 8px solid var(--highlight-color);
+  outline: 8px solid var(--highlight-color);
 }
 
 .light #switch button {
-    animation: slide-in 0.2s forwards;
+  animation: slide-in 0.2s forwards;
 }
 
 #switch span {
-    display: block;
-    width: 64px;
-    height: 24px;
-    background: var(--surface-color);
-    border: 1px solid var(--stroke-color);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 9999px;
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 9999px;
 }
-
 
 /* Links */
 
 #container ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 24px 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
 }
 
 #container ul li a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 24px;
-    background: var(--surface-color);
-    border: 1px solid var(--stroke-color);
-    border-radius: 9999px;
-    backdrop-filter: blur(4px);
-    --webkit-backdrop-filter: blur(4px);
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 9999px;
+  backdrop-filter: blur(4px);
+  --webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.5s;
 }
 
 #container ul li a:hover {
-    background: var(--surface-color-hover);
-    border: 1.5px solid var(--text-color);
+  background: var(--surface-color-hover);
+  border: 1.5px solid var(--text-color);
 }
-
 
 /* Social Links */
 
 #social-links {
-    display: flex;
-    padding: 24px 0;
-    justify-content: center;
-    font-size: 24px;
+  display: flex;
+  padding: 24px 0;
+  justify-content: center;
+  font-size: 24px;
 }
 
 #social-links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-    border-radius: 50%;
-    transition: background 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
+  transition: background 0.3s;
 }
 
 #social-links a:hover {
-    background: var(--highlight-color);
+  background: var(--highlight-color);
 }
 
 @media (min-width: 700px) {
-     :root {
-        --bg-url: url(./assets/ffflurry.svg);
-    }
-    .light {
-        --bg-url: url(./assets/ffflurry-light.svg);
-    }
+  :root {
+    --bg-url: url(./assets/ffflurry.svg);
+  }
+  .light {
+    --bg-url: url(./assets/ffflurry-light.svg);
+  }
 }
 
 @keyframes slide-in {
-    from {
-        left: 0;
-    }
-    to {
-        left: 50%;
-    }
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
 }
 
 @keyframes slide-back {
-    from {
-        left: 50%;
-    }
-    to {
-        left: 0;
-    }
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
